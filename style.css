@@ -39,8 +39,9 @@ top: 0;
     color: white;
     
 }
-#navbar>h3{
+#navbar>h3>a{
     font-size:1.7rem;
+    text-decoration: none;
     text-transform: capitalize;
     color: white;
     text-transform: uppercase;
@@ -112,7 +113,7 @@ align-items: center;
     height: 100vh;
     /* border: 2px solid; */
 }
-.section3-heading{
+#section3-heading{
     font-size: 1.3rem;
     padding: .5rem;
     text-align: center;
@@ -120,7 +121,7 @@ align-items: center;
     color: rgb(72, 71, 69);
     text-transform: uppercase;
 }
-.section3-heading>h2{
+#section3-heading>h2{
     font-weight:800;
 }
 .features-line{
@@ -175,9 +176,16 @@ align-items: center;
 
 /* section4 */
 #section-4{
-    border: 2px solid;
-    display: flex;
     /* border: 2px solid; */
+    display: flex;
+    margin-top: 4rem;
+    
+}
+.section4-div1 img{
+    /*border: 6px solid;
+    */width: 35rem;
+    height: 25rem;
+    padding-left: 2rem;
 }
 .section4-div1{
     display: flex;
@@ -185,9 +193,56 @@ align-items: center;
 .section4-div2{
     border: 2px solid;
 }
-.about-div2{
-    display: flex;
-    flex-direction:row;
+ .about-div{
+    gap: 3rem;
+    margin-left: 2.5rem;
     
+
+ }
+ .about-line{
+    border: 2px solid;
+    width: 4rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  color: rgba(39, 39, 236, 0.752);
 }
 
+.about-div>h2{
+    /* border: 2px solid; */
+   font-size: 2.5rem;
+    color: rgb(50, 49, 48);
+    width: 14rem;
+    text-transform: uppercase;
+}
+.about-div>p{
+    padding: 2rem 1rem 0rem 0rem;
+    line-height: 1.9rem;
+  color: rgb(93, 88, 88);
+  font-size: .9rem;
+  text-align:inherit;
+  /* border: 2px solid; */
+   
+} 
+
+.about-div1>h4{
+/* border: 2px solid; */
+color: rgb(50, 49, 48);
+width:14rem;
+font-size: 1.5rem;
+font-weight: 600;  
+padding-top: 1rem;
+}
+.about-div2{
+    display: flex;
+    gap: 4rem;
+    padding: 2rem;
+    line-height: 1.7rem;
+     color: rgb(93, 88, 88);  
+}
+.about-div2 ul>li{
+    list-style: none;
+    font-size: .9rem;
+}
