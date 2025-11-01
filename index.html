@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>landing page</title>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -20,7 +23,7 @@
                 <li><a href="#section-6">gallary</a></li>
                 <li><a href="#section-7">testimonials</a></li>
                 <li><a href="#section-8">team</a></li>
-                <li><a href="">contact</a></li>
+                <li><a href="#section-9">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -287,44 +290,64 @@
             </div>
         </section>
         <!-- section8 -->
- 
-      <!-- section9 -->
-       <section id="section9">
-        <div class="section9-div1">
-            <h1>Get In Touch</h1>
-            <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
-            <form>
-                <label for="text"></label>
-                <input type="text"name="text" placeholder="Name" required>
-                <label for="password"></label>
-                <input type="password" name="password" placeholder="password" minlength="8" maxlength="4">
-                <label for="feedback"></label>
-                <textarea name="feedback" placeholder="Massage"></textarea>
-                <button>send massage</button>
-            </form>
-        </div>
 
-        <div class="section9-div2">
-            <h5>Contact Info</h5>
-            <div class="address">
-             <h6> Address</h6>
-             <p>4321 California St, San Francisco, CA 12345</p>
+        <!-- section9 -->
+        <section id="section-9">
+            <div class="section9-div1">
+                <h1>Get In Touch</h1>
+                <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.
+                </p>
+                <form>
+                    <label for="text"></label>
+                    <input type="text" name="text" placeholder="Name" required>
+                    <label for="Email"></label>
+                    <input type="email" name="Email" placeholder="Email">
+                    <label for="feedback"></label>
+                    <textarea name="feedback" placeholder="Massage" class="feedback"></textarea>
+                    <button class="section9-div1-btn">send massage</button>
+                </form>
             </div>
-            <div class="Phone">
-             <h6>Phone</h6>
-             <p>+1 123 456 1234</p>
+
+            <div class="section9-div2">
+                <h4>Contact Info</h4>
+                <div class="address">
+                    <h5><i class="fa-solid fa-location-dot"></i> Address</h5>
+                    <p>4321 California St, San Francisco, CA 12345</p>
+                </div>
+                <div class="Phone">
+                    <h5><i class="fa-solid fa-phone"></i>Phone</h5>
+                    <p>+1 123 456 1234</p>
+                </div>
+                <div class="Email">
+                    <h5><i class="fa-regular fa-envelope"></i> Email</h5>
+                    <p>info@company.com</p>
+                </div>
             </div>
-            <div class="Email">
-             <h6>Email</h6>
-             <p>info@company.com</p>
+        </section>
+
+        <section id="section-10">
+            <div class="section10-div1">
+                <div>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="white" d="M240 363.3L240 576L356 576L356 363.3L442.5 363.3L460.5 265.5L356 265.5L356 230.9C356 179.2 376.3 159.4 428.7 159.4C445 159.4 458.1 159.8 465.7 160.6L465.7 71.9C451.4 68 416.4 64 396.2 64C289.3 64 240 114.5 240 223.4L240 265.5L174 265.5L174 363.3L240 363.3z"/></svg></a>
+                </div>
+                <div>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="white" d="M523.4 215.7C523.7 220.2 523.7 224.8 523.7 229.3C523.7 368 418.1 527.9 225.1 527.9C165.6 527.9 110.4 510.7 64 480.8C72.4 481.8 80.6 482.1 89.3 482.1C138.4 482.1 183.5 465.5 219.6 437.3C173.5 436.3 134.8 406.1 121.5 364.5C128 365.5 134.5 366.1 141.3 366.1C150.7 366.1 160.1 364.8 168.9 362.5C120.8 352.8 84.8 310.5 84.8 259.5L84.8 258.2C98.8 266 115 270.9 132.2 271.5C103.9 252.7 85.4 220.5 85.4 184.1C85.4 164.6 90.6 146.7 99.7 131.1C151.4 194.8 229 236.4 316.1 240.9C314.5 233.1 313.5 225 313.5 216.9C313.5 159.1 360.3 112 418.4 112C448.6 112 475.9 124.7 495.1 145.1C518.8 140.6 541.6 131.8 561.7 119.8C553.9 144.2 537.3 164.6 515.6 177.6C536.7 175.3 557.2 169.5 576 161.4C561.7 182.2 543.8 200.7 523.4 215.7z"/></svg></a>
+                </div>
+                <div>
+                
+              <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="white" d="M581.7 188.1C575.5 164.4 556.9 145.8 533.4 139.5C490.9 128 320.1 128 320.1 128C320.1 128 149.3 128 106.7 139.5C83.2 145.8 64.7 164.4 58.4 188.1C47 231 47 320.4 47 320.4C47 320.4 47 409.8 58.4 452.7C64.7 476.3 83.2 494.2 106.7 500.5C149.3 512 320.1 512 320.1 512C320.1 512 490.9 512 533.5 500.5C557 494.2 575.5 476.3 581.8 452.7C593.2 409.8 593.2 320.4 593.2 320.4C593.2 320.4 593.2 231 581.8 188.1zM264.2 401.6L264.2 239.2L406.9 320.4L264.2 401.6z"/></svg></a>
+              </div>
+                
             </div>
-        </div>
-       </section>
+        </section>
 
 
-      <!-- section9 -->
+
+        <!-- section9 -->
     </main>
-    <footer></footer>
+    <footer>
+        <p>© 2023 Issaaf Kattan React Land Page Template. Design by <a href="https://templatewire.com/">TemplateWire</a></p>
+    </footer>
 </body>
 
 </html>
