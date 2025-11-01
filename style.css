@@ -428,3 +428,17 @@ html {
 }
 
 /* section8 */
+
+/* section9 */
+#section9{
+  border: 2px solid;
+  display: flex;
+}
+.section9-div1{
+  border: 2px solid;
+  
+}
+.section9-div2{
+  border: 2px solid;
+}
+/* section9 */
